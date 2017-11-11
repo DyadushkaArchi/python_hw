@@ -23,8 +23,8 @@ print(result)
 a = 88
 b = 77
 c = 66
-equation = ( a + b ) / 12 * c % 4 + b
-result = "3)Сумма числа b и остатока от деления выражения ( a + b ) / 12 * c на 4," \
+equation = (a + b) / 12 * c % 4 + b
+result = "3)Сумма числа b и остатока от деления выражения (a + b) / 12 * c на 4," \
          "при а = %d, b = %d, с = %d, равна %.1f;" % \
          (a, b, c, equation)
 print(result)
@@ -34,8 +34,8 @@ print(result)
 a = 9
 b = 17
 c = 4
-equation = (a - b * c ) / ( a + b ) % c
-result = "4)Остаток от деления выражения (a - b * c ) / ( a + b ) на число с," \
+equation = (a - b * c) / (a + b) % c
+result = "4)Остаток от деления выражения (a - b * c) / (a + b) на число с," \
          "при а = %d, b = %d и с = %d, равен %f;" % \
          (a, b, c, equation)
 print(result)
@@ -45,8 +45,8 @@ print(result)
 a = 1
 b = -4
 c = 34
-equation = abs( a - b ) / ( a + b)**3 - math.cos(c)
-result = "5)Выржение | a - b | /( a + b)3 - cos( c )," \
+equation = abs(a - b) / (a + b)**3 - math.cos(c)
+result = "5)Выржение | a - b | /(a + b)3 - cos( c )," \
          "при а = %d, b = %d и с = %d, равнo %f;" % \
          (a, b, c, equation)
 print(result)
@@ -56,8 +56,8 @@ print(result)
 a = 90
 b = 54.8
 c = 0
-equation = ( math.log( 1+c ) / -b )**4+ abs(a)
-result = "6)Выражение ( ln( 1 + c ) / -b )4+ | a |," \
+equation = (math.log(1+c) / -b)**4+ abs(a)
+result = "6)Выражение (ln(1 + c) / -b)4+ | a |," \
          "при а = %d, b = %d и с = %d, равно %d." % \
          (a, b, c, equation)
 print(result)
