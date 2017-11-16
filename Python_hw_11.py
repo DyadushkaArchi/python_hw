@@ -6,8 +6,7 @@ import math
 #=======================================================================
 
 def radian (degree):
-    transfer = 0.0174533
-    result = degree * transfer
+    result = (degree * math.pi) / 180
     return result
 
 angle = 60
