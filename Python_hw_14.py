@@ -7,12 +7,9 @@ import math
 
 
 def parity(number):
-    if math.fmod(number, 2) == 0:
-        return True
-    else:
-        return False
+    return math.fmod(number, 2) == 0
 
 
-example = parity(42)
+example = parity(42.2)
 print(example)
 
