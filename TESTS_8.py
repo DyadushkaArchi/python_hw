@@ -13,9 +13,9 @@ for i in range(len(lst)):
         current_min = lst[i]
         index_min = i
 
-sum = current_min + current_max
-lst[index_max] = sum - current_max
-lst[index_min] = sum - current_min
+lst[index_max] = current_min
+lst[index_min] = current_max
+
 print(lst)
 
 
