@@ -9,14 +9,15 @@ def is_isogramm(text):
     letter_frequency = {}
     for i in range(len(text)):
         key = str(text[i])
-        if not key in letter_frequency:
-            letter_frequency[key] = 1
-        elif key in letter_frequency:
-            return False
+        if not key == ' ':
+            if not key in letter_frequency:
+                letter_frequency[key] = 1
+            elif key in letter_frequency:
+                return False
 
     return True
 
-print(is_isogramm('pardox'))
+print(is_isogramm('книга без слов'))
 
 
 
