@@ -5,6 +5,7 @@
 
 lst = [-5, 3, 4]
 current_max = abs(lst[0])
+
 for i in range(len(lst)):
 
     if abs(lst[i]) > current_max:
