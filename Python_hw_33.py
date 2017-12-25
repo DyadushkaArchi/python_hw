@@ -13,8 +13,7 @@ class Godzilla:
 
 #(main.py)
 #from Python_hw_33 import Godzilla
-
-#Godzilla.__init__(Godzilla, 100)
-#print(Godzilla.is_full(Godzilla))
-#Godzilla.eat(Godzilla, 93)
-#print(Godzilla.is_full(Godzilla))
+#g = Godzilla(100)
+#print(g.is_full())
+#g.eat(93)
+#print(g.is_full())
